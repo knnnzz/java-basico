@@ -1,18 +1,29 @@
-## Getting Started
+## Assuntos do curso
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- `estrutura inicial`
+- `padrão de nomenclatura`
+- `declarando variaveis e métodos`
+- `identação`
+- `organizando arquivos`
+- `java beans`
 
-## Folder Structure
+- Se uma classe for executável, ela precisa ter um método chamado main pra inicializar a classe
+- Toda classe precisa existir dentro de /src/, toda classe precisa ser com a primeira letra maiúscula/
 
-The workspace contains two folders by default, where:
+## Camel Case
+- nome de variável: toda variável deve ser escrita em letras minúsculas, mas caso a palavra for composta, a primeira letra da segunda palavra deverá ser maiúscula. prática chamada de camelCase
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## variáveis imutáveis
+- são as variáveis que não podem ser alteradas no futuro, pra isso elas devem ser escritas totalmente em letras maiúsculas. exemplo:
+- ``String BR = "Brasil"``
+- ``int ESTADOS_BRASILEIROS = 27``
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## variavies comuns
+- a estrutura da variavel sempre precisa começar pelo *Tipo NomeBemDefinido = Atribuição (Opcional em alguns casos)*
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- ``int idade = 23;``
+- ``double altura = 1.62;``
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## estrutura de métodos
+- a estrutura pro método é *TipoRetorno NomeObjetivoInfinitivo Retorno(s)*
+- precisamos iniciar o método com public static/public void
